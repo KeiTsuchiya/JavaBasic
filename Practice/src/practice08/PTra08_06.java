@@ -30,11 +30,17 @@ public class PTra08_06 {
 	}
 
 	// ★ dispValueを引数intでオーバーロードしてください。処理は同じ
-
+	public static void dispValue(int number) {
+		System.out.println(number);
+	}
 
 	// ★ dispValueを引数doubleでオーバーロードしてください。処理は同じ
-
+	public static void dispValue(double decimal) {
+		System.out.println(decimal);
+	}
 
 	// ★ dispValueを引数charでオーバーロードしてください。処理は同じ
-
+	public static void dispValue(char word) {
+		System.out.println(word);
+	}
 }
