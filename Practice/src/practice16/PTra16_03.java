@@ -15,10 +15,13 @@ public class PTra16_03 {
 	 * 	・親クラス（Objectクラス）のtoStringの処理を行ってください
 	 *	・その後、改行をして「PTra16_03#toString()の処理」という文字列を連結してください
 	 */
-
 	public static void main(String[] args) {
-
+		PTra16_03 pTra16_03 = new PTra16_03();
+		System.out.println(pTra16_03.toString());
 		// ★ PTra16_03クラスのtoStringメソッドの内容を出力してください
-
+	}
+	public String toString() {
+		String crlf = System.getProperty("line.separator");
+		return super.toString() + crlf + "PTra16_03#toString()の処理";
 	}
 }
